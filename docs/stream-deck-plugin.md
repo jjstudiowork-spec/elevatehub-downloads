@@ -17,10 +17,15 @@ buttons configured in ElevateHub's Resolume Control workspace.
 4. In ElevateHub, assign that Stream Deck key to a Resolume Control button.
 5. Confirm that the Property Inspector says **Synced**.
 
-Each button can use its own background and text colours, font family, automatic
-or custom text size, font weight, italic or uppercase text, alignment, and
-optional border. Appearance changes are included in Set exports and update on
+Each button can use its own background and text colours, any font installed on
+the ElevateHub computer, font weight, and italic or uppercase text. Text is
+automatically sized and centred for reliable key layouts. Appearance changes are included in Set exports and update on
 Stream Deck hardware and Stream Deck Mobile automatically.
+
+Keys also support built-in icons, optimized custom images, text/icon display
+modes, brightness control, reusable style presets, copy/paste styling, and an
+automatic contrast warning. A finished style can be applied across a Set
+without changing any of its assigned actions.
 
 When ElevateHub is closed or disconnected, the key displays the ElevateHub
 logo. Open ElevateHub and Resolume Control to reconnect automatically.
