@@ -1,13 +1,7 @@
 {
-  "status": "failed",
-  "version": "v0.5.9",
-  "message": "Release build did not complete",
-  "startedAt": "2026-09-18T08:12:48.057Z",
-  "finishedAt": "2026-09-18T08:25:43.680Z",
-  "platforms": {
-    "macos": "failure",
-    "windows": "failure",
-    "downloads": "skipped"
-  },
-  "runUrl": "https://github.com/jjstudiowork-spec/elevateflow/actions/runs/35323215789"
+  "status": "building",
+  "version": "v0.5.10",
+  "message": "Building macOS and Windows releases",
+  "startedAt": "2026-09-18T08:33:38.350Z",
+  "runUrl": "https://github.com/jjstudiowork-spec/elevateflow/actions/runs/35324981003"
 }
