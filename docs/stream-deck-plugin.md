@@ -1,7 +1,8 @@
 # ElevateHub Stream Deck Plugin
 
 The ElevateHub Stream Deck plugin connects keys in the Stream Deck app to
-buttons configured in ElevateHub's Resolume Control workspace.
+buttons configured in ElevateHub's Resolume Control workspace and ElevateFlow
+presentation controls.
 
 ## Requirements
 
@@ -13,7 +14,8 @@ buttons configured in ElevateHub's Resolume Control workspace.
 
 1. Open ElevateHub and unlock your Team member profile.
 2. Open **Operator Workspace**, then open **Resolume Control**.
-3. In the Stream Deck app, drag **ElevateHub Button** onto a key.
+3. In the Stream Deck app, drag **ElevateHub Button** onto a key for Visual
+   Control, or **ElevateFlow Button** for Flow.
 4. In ElevateHub, assign that Stream Deck key to a Resolume Control button.
 5. Confirm that the Property Inspector says **Synced**.
 
@@ -38,8 +40,16 @@ logo. Open ElevateHub and Resolume Control to reconnect automatically.
   Stream Deck was offline.
 - Restart the Stream Deck app after installing a development build.
 
-The plugin communicates only with ElevateHub over `127.0.0.1:47825`. It does
-not send button assignments or account information over the internet.
+The plugin communicates only with ElevateHub or ElevateFlow over
+`127.0.0.1:47825`. It does not send button assignments or account information
+over the internet.
+
+## Releasing a plugin update
+
+When the plugin itself changes, bump both its `package.json` version and the
+plugin manifest version. A normal `npm run publish:all` release now packages
+the plugin, attaches it to the public release, and updates the download on the
+ElevateHub website automatically.
 
 For support, open an issue in the
 [ElevateHub support tracker](https://github.com/jjstudiowork-spec/elevatehub-downloads/issues).
