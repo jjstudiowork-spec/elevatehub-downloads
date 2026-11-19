@@ -1,7 +1,13 @@
 {
-  "status": "building",
+  "status": "released",
   "version": "v0.5.27",
-  "message": "Building macOS and Windows releases",
+  "message": "Release is available",
   "startedAt": "2026-11-19T12:07:51.294Z",
+  "finishedAt": "2026-11-19T12:38:19.195Z",
+  "platforms": {
+    "macos": "success",
+    "windows": "success",
+    "downloads": "success"
+  },
   "runUrl": "https://github.com/jjstudiowork-spec/elevateflow/actions/runs/44520917027"
 }
